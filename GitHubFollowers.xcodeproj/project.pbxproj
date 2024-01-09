@@ -27,6 +27,7 @@
 		7C75B3E42B46F7CE007009FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C75B3E22B46F7CE007009FD /* LaunchScreen.storyboard */; };
 		7C75B3EC2B470725007009FD /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C75B3EB2B470725007009FD /* SearchVC.swift */; };
 		7C75B3EE2B4707BC007009FD /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C75B3ED2B4707BC007009FD /* FavoritesListVC.swift */; };
+		7C891D4D2B4CEB9100336B34 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C891D4C2B4CEB9100336B34 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		7C75B3E52B46F7CE007009FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C75B3EB2B470725007009FD /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		7C75B3ED2B4707BC007009FD /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		7C891D4C2B4CEB9100336B34 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				7C68B6572B4AFB360089AA40 /* GFError.swift */,
+				7C891D4C2B4CEB9100336B34 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				7C6FC3182B48B3BA003BE5D5 /* GFTitleLabel.swift in Sources */,
 				7C75B3EC2B470725007009FD /* SearchVC.swift in Sources */,
 				7C68B6582B4AFB360089AA40 /* GFError.swift in Sources */,
+				7C891D4D2B4CEB9100336B34 /* UIHelper.swift in Sources */,
 				7C68B6552B4AECF90089AA40 /* NetworkManager.swift in Sources */,
 				7C75B3D82B46F7CD007009FD /* AppDelegate.swift in Sources */,
 				7C75B3DA2B46F7CD007009FD /* SceneDelegate.swift in Sources */,
