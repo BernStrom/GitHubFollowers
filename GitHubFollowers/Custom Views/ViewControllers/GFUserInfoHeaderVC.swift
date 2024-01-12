@@ -1,5 +1,5 @@
 //
-//  GFInfoHeaderVC.swift
+//  GFUserInfoHeaderVC.swift
 //  GitHubFollowers
 //
 //  Created by Bern N on 1/12/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GFInfoHeaderVC: UIViewController {
+class GFUserInfoHeaderVC: UIViewController {
     
     let avatarImageView = GFAvatarImageView(frame: .zero)
     let usernameLabel = GFTitleLabel(textAlignment: .left, fontSize: 34)

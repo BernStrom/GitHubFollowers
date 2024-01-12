@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C620AFC2B50EA0400476C17 /* GFInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C620AFB2B50EA0400476C17 /* GFInfoHeaderVC.swift */; };
+		7C620AFC2B50EA0400476C17 /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C620AFB2B50EA0400476C17 /* GFUserInfoHeaderVC.swift */; };
 		7C620AFE2B50EA6A00476C17 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C620AFD2B50EA6A00476C17 /* GFSecondaryTitleLabel.swift */; };
 		7C620B002B50F1E200476C17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C620AFF2B50F1E200476C17 /* Constants.swift */; };
 		7C68B6552B4AECF90089AA40 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C68B6542B4AECF90089AA40 /* NetworkManager.swift */; };
@@ -36,7 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C620AFB2B50EA0400476C17 /* GFInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFInfoHeaderVC.swift; sourceTree = "<group>"; };
+		7C620AFB2B50EA0400476C17 /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		7C620AFD2B50EA6A00476C17 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		7C620AFF2B50F1E200476C17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7C68B6542B4AECF90089AA40 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -224,7 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				7C6FC31B2B48B671003BE5D5 /* GFAlertVC.swift */,
-				7C620AFB2B50EA0400476C17 /* GFInfoHeaderVC.swift */,
+				7C620AFB2B50EA0400476C17 /* GFUserInfoHeaderVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -328,7 +328,7 @@
 				7C75B3EC2B470725007009FD /* SearchVC.swift in Sources */,
 				7C68B6582B4AFB360089AA40 /* GFError.swift in Sources */,
 				7C891D4D2B4CEB9100336B34 /* UIHelper.swift in Sources */,
-				7C620AFC2B50EA0400476C17 /* GFInfoHeaderVC.swift in Sources */,
+				7C620AFC2B50EA0400476C17 /* GFUserInfoHeaderVC.swift in Sources */,
 				7C68B6552B4AECF90089AA40 /* NetworkManager.swift in Sources */,
 				7C75B3D82B46F7CD007009FD /* AppDelegate.swift in Sources */,
 				7C75B3DA2B46F7CD007009FD /* SceneDelegate.swift in Sources */,
