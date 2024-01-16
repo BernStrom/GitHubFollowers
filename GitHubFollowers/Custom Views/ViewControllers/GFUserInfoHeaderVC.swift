@@ -32,6 +32,8 @@ class GFUserInfoHeaderVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubviews(avatarImageView, usernameLabel, nameLabel, locationImageView, locationLabel, bioLabel)
+        
         configureAvatarImageView()
         configureUsernameLabel()
         configureNameLabel()
@@ -41,7 +43,6 @@ class GFUserInfoHeaderVC: UIViewController {
     }
     
     func configureAvatarImageView() {
-        view.addSubview(avatarImageView)
         avatarImageView.setImage(from: user.avatarUrl)
         
         NSLayoutConstraint.activate([
@@ -53,7 +54,6 @@ class GFUserInfoHeaderVC: UIViewController {
     }
     
     func configureUsernameLabel() {
-        view.addSubview(usernameLabel)
         usernameLabel.text = user.login
         
         NSLayoutConstraint.activate([
@@ -65,7 +65,6 @@ class GFUserInfoHeaderVC: UIViewController {
     }
     
     func configureNameLabel() {
-        view.addSubview(nameLabel)
         nameLabel.text = user.name
         
         NSLayoutConstraint.activate([
@@ -77,7 +76,6 @@ class GFUserInfoHeaderVC: UIViewController {
     }
     
     func configureLocationImageView() {
-        view.addSubview(locationImageView)
         locationImageView.translatesAutoresizingMaskIntoConstraints = false
         locationImageView.image = SFSymbols.location
         locationImageView.tintColor = .secondaryLabel
@@ -91,7 +89,6 @@ class GFUserInfoHeaderVC: UIViewController {
     }
     
     func configureLocationLabel() {
-        view.addSubview(locationLabel)
         locationLabel.text = user.location ?? "No location"
         
         NSLayoutConstraint.activate([
@@ -103,7 +100,6 @@ class GFUserInfoHeaderVC: UIViewController {
     }
     
     func configureBioLabel() {
-        view.addSubview(bioLabel)
         bioLabel.text = user.bio ?? "No bio available"
         bioLabel.numberOfLines = 3
         
@@ -111,7 +107,7 @@ class GFUserInfoHeaderVC: UIViewController {
             bioLabel.topAnchor.constraint(equalTo: avatarImageView.bottomAnchor, constant: textImagePadding),
             bioLabel.leadingAnchor.constraint(equalTo: avatarImageView.leadingAnchor),
             bioLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            bioLabel.heightAnchor.constraint(equalToConstant: 60)
+            bioLabel.heightAnchor.constraint(equalToConstant: 90)
         ])
     }
 

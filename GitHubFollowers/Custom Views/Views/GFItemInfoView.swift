@@ -19,6 +19,8 @@ class GFItemInfoView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        addSubviews(symbolImageView, titleLabel, countLabel)
+        
         configureSymbolImageView()
         configureTitleLabel()
         configureCountLabel()
@@ -29,7 +31,6 @@ class GFItemInfoView: UIView {
     }
     
     private func configureSymbolImageView() {
-        addSubview(symbolImageView)
         symbolImageView.translatesAutoresizingMaskIntoConstraints = false
         symbolImageView.contentMode = .scaleAspectFill
         symbolImageView.tintColor = .label
@@ -43,8 +44,6 @@ class GFItemInfoView: UIView {
     }
     
     private func configureTitleLabel() {
-        addSubview(titleLabel)
-        
         NSLayoutConstraint.activate([
             titleLabel.centerYAnchor.constraint(equalTo: symbolImageView.centerYAnchor),
             titleLabel.leadingAnchor.constraint(equalTo: symbolImageView.trailingAnchor, constant: 12),
@@ -54,8 +53,6 @@ class GFItemInfoView: UIView {
     }
     
     private func configureCountLabel() {
-        addSubview(countLabel)
-        
         NSLayoutConstraint.activate([
             countLabel.topAnchor.constraint(equalTo: symbolImageView.bottomAnchor, constant: 4),
             countLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor),

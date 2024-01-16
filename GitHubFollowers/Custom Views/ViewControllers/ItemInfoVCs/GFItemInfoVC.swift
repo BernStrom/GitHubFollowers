@@ -30,6 +30,8 @@ class GFItemInfoVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubviews(stackView, actionButton)
+        
         configureBackgroundView()
         configureStackView()
         configureActionButton()
@@ -41,7 +43,6 @@ class GFItemInfoVC: UIViewController {
     }
     
     private func configureStackView() {
-        view.addSubview(stackView)
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .horizontal
         stackView.distribution = .equalSpacing
@@ -58,7 +59,6 @@ class GFItemInfoVC: UIViewController {
     }
     
     private func configureActionButton() {
-        view.addSubview(actionButton)
         actionButton.addTarget(self, action: #selector(actionButtonTapped), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
