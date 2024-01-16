@@ -41,7 +41,6 @@
 		7C9C9F372B4ED75200AEEB1E /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C9F362B4ED75200AEEB1E /* GFEmptyStateView.swift */; };
 		7CBD70162B4FB9DB00A2DDF2 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD70152B4FB9DB00A2DDF2 /* UserInfoVC.swift */; };
 		7CD955D32B524C2E002842EE /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD955D22B524C2E002842EE /* Date+Ext.swift */; };
-		7CD955D52B524C64002842EE /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD955D42B524C64002842EE /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,7 +80,6 @@
 		7C9C9F362B4ED75200AEEB1E /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		7CBD70152B4FB9DB00A2DDF2 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		7CD955D22B524C2E002842EE /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
-		7CD955D42B524C64002842EE /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +162,6 @@
 			children = (
 				7C6FC31D2B48C03F003BE5D5 /* UIViewController+Ext.swift */,
 				7CD955D22B524C2E002842EE /* Date+Ext.swift */,
-				7CD955D42B524C64002842EE /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -372,7 +369,6 @@
 				7C6FC3182B48B3BA003BE5D5 /* GFTitleLabel.swift in Sources */,
 				7C75B3EC2B470725007009FD /* SearchVC.swift in Sources */,
 				7C71FAE52B54FDFB004AC213 /* PersistenceManager.swift in Sources */,
-				7CD955D52B524C64002842EE /* String+Ext.swift in Sources */,
 				7C68B6582B4AFB360089AA40 /* GFError.swift in Sources */,
 				7C620B042B51125E00476C17 /* GFItemInfoVC.swift in Sources */,
 				7C620B082B511B3100476C17 /* GFFollowerItemVC.swift in Sources */,
