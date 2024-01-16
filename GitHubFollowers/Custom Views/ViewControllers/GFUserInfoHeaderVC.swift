@@ -79,7 +79,7 @@ class GFUserInfoHeaderVC: UIViewController {
     func configureLocationImageView() {
         view.addSubview(locationImageView)
         locationImageView.translatesAutoresizingMaskIntoConstraints = false
-        locationImageView.image = UIImage(systemName: SFSymbols.location)
+        locationImageView.image = SFSymbols.location
         locationImageView.tintColor = .secondaryLabel
         
         NSLayoutConstraint.activate([
